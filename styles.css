@@ -1,0 +1,47 @@
+* {
+    
+    text-align: center;
+body {
+    margin: 0;
+    background-color: black;
+}
+}
+#container {
+    background-color: blue;
+    margin: 10rem auto;
+    padding: 5rem;
+    position: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#result {
+    background-color: aqua;
+    margin: 10rem auto;
+    font-size: 60px;
+    position: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#btn {
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 10px
+}
+
+#resetbtn, #minusbtn {
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: red;
+    margin-left: 0;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px;
+}
+
+#minusbtn {
+
+    background-color: greenyellow;
+}
