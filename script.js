@@ -1,21 +1,21 @@
-const tlacitko = document.getElementById("btn");
+const button = document.getElementById("btn");
 const result = document.getElementById("result");
-const resetTlacitko = document.getElementById("resetbtn");
-const minusTlacitko = document.getElementById("minusbtn");
+const resetButton = document.getElementById("resetbtn");
+const minusButton = document.getElementById("minusbtn");
 let cislo = 0;
 
-tlacitko.addEventListener("click", () => {
+button.addEventListener("click", () => {
     cislo += 1
     result.textContent = cislo;
     
 });
 
-resetTlacitko.addEventListener("click", () => {
+resetButton.addEventListener("click", () => {
     cislo = 0
     result.textContent = cislo;
 })
 
-minusTlacitko.addEventListener("click", () => {
+minusButton.addEventListener("click", () => {
     cislo -= 1;
     result.textContent = cislo;
 })
